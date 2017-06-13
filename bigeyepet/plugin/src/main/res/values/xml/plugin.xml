@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plugs>
+    <Plug
+        name="user"
+        class="com.wukong.user.UserService" />
+    <Plug
+        name="landlord"
+        class="com.wukong.LandlordService" />
+    <Plug
+        name="h5"
+        class="com.wukong.h5.H5Service" />
+    <Plug
+        name="map"
+        class="com.wukong.map.MapService" />
+    <Plug
+        name="pay"
+        class="com.wukong.pay.PayService" />
+    <Plug
+        name="rent"
+        class="com.wkzf.rent.RentService" />
+</Plugs>

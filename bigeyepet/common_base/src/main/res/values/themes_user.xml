@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowAnimationStyle">@style/dialog_fade_style</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <!-- Special Theme-->
+    <style name="SplashActivityTheme" parent="@style/FullScreenTheme">
+        <item name="android:windowAnimationStyle">@style/splash_activity_fade_style</item>
+        <item name="android:windowBackground">@drawable/splash_laylist</item>
+    </style>
+    <!-- FullScreen theme-->
+    <style name="FullScreenTheme" parent="@style/LFBaseTheme" />
+    <!-- Base theme-->
+    <style name="LFBaseTheme" parent="@style/LFAppTheme">
+        <item name="android:windowAnimationStyle">@style/activity_translate_style</item>
+    </style>
+    <!-- Root theme -->
+    <style name="LFAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary_accent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:autoCompleteTextViewStyle">@style/InputCursorColor</item>
+        <item name="android:editTextStyle">@style/LFEditText</item>
+
+    </style>
+
+    <style name="MainActivityTheme" parent="@style/TranslucentStatusTheme">
+        <item name="android:windowAnimationStyle">@style/main_activity_translate_style</item>
+    </style>
+    <!-- TransStatusBar theme-->
+    <style name="TranslucentStatusTheme" parent="@style/LFBaseTheme" />
+</resources>

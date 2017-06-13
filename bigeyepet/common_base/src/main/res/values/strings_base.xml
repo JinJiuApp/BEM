@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="city_not_support_tip">您当前所在城市暂未开通, 去上海看看？</string>
+    <string name="loc_failed">定位未成功</string>
+    <string name="service_error_not_connected">网络未连接</string>
+    <string name="service_error_not_house">没有符合条件的房源</string>
+    <string name="service_error_common">哎哟，出错了！</string>
+    <string name="service_error_token_invalid">登录信息失效</string>
+    <string name="action_settings">Settings</string>
+    <!-- pay safe-->
+    <string name="pay_set_pd">设置支付密码</string>
+    <string name="pay_reset_pd">重置支付密码</string>
+    <string name="pay_forget_pd">忘记支付密码</string>
+    <string name="pay_safe_check">安全校验</string>
+    <string name="pay_set_pd_6">请设置6位数字支付密码</string>
+    <string name="pay_sure_pd_6">请确认6位数字支付密码</string>
+    <string name="pay_input_origin_pw">请输入支付密码，以验证身份</string>
+    <string name="pay_set_pw">设置密码</string>
+    <string name="pay_input_pw">请输入支付密码</string>
+    <string name="pay_forget_pw">忘记密码</string>
+    <string name="pay_dialog_commint">设置支付密码</string>
+    <string name="pay_dialog_cancle">取消</string>
+    <string name="pay_dialog_content">您尚未设置支付密码,请先设置支付密码</string>
+</resources>

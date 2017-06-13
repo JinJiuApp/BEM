@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LFTitleBar">
+        <attr name="title_bar_bg_theme" format="enum">
+            <enum name="blue" value="0"/>
+            <enum name="white" value="1"/>
+        </attr>
+
+        <attr name="title_bar_text" format="string"/>
+        <attr name="title_bar_text_appearance" format="reference"/>
+
+        <attr name="title_bar_back_theme" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="simple" value="1"/>
+            <enum name="close" value="2"/>
+        </attr>
+        <attr name="title_bar_back_text" format="string"/>
+
+        <attr name="title_bar_menu_view" format="reference"/>
+        <attr name="title_bar_divider" format="boolean"/>
+
+    </declare-styleable>
+    <declare-styleable name="DetailItemView">
+        <attr name="building_name" format="string"/>
+        <attr name="building_content" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="NewHouseDetailItemView">
+        <attr name="house_information_name" format="string"/>
+        <attr name="house_information_content" format="string"/>
+        <attr name="house_information_name_style" format="reference"/>
+        <attr name="house_information_content_style" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="LFBlankLayout">
+        <attr name="no_data_remind_text" format="string"/>
+
+        <attr name="action_notice_text" format="string"/>
+
+        <attr name="icon_drawable" format="reference"/>
+
+        <attr name="btn_text" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="LFRemindLoginLayout">
+        <attr name="remind_text" format="string"/>
+        <attr name="icon_resId" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="FitStatusBarLayout">
+        <attr name="status_bar_bg_color" format="color|reference"/>
+        <attr name="status_bar_bg_id" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontal_spacing" format="dimension"/>
+        <attr name="vertical_spacing" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="PullRefreshLayout">
+        <attr name="pull_type" format="enum">
+            <enum name="material" value="0"/>
+            <enum name="circles" value="1"/>
+            <enum name="water_drop" value="2"/>
+            <enum name="ring" value="3"/>
+            <enum name="custom" value="4"/>
+        </attr>
+        <attr name="pull_colors" format="reference"/>
+        <attr name="pull_show_divider" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RippleLayout">
+        <attr name="android:color"/>
+        <attr name="enable_ripple" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="LineRadioSelectedView">
+        <attr name="radio_title" format="string"/>
+        <attr name="radio_check" format="boolean"/>
+        <attr name="radio_top_line" format="boolean"/>
+        <attr name="radio_bottom_line" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="LineInputSelectedView">
+        <attr name="input_title" format="string"/>
+        <attr name="input_selected_title" format="string"/>
+        <attr name="input_selected_title_hint" format="string"/>
+        <attr name="input_arrow" format="boolean"/>
+        <attr name="input_top_line" format="boolean"/>
+        <attr name="input_bottom_line" format="boolean"/>
+        <attr name="input_title_width" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="OptionItemView">
+        <!-- Text to display for title. -->
+        <attr name="main_title_text" format="string" localization="suggested"/>
+        <!-- Text appearance to display for title. -->
+        <attr name="main_title_text_appearance" format="integer"/>
+        <!-- When true, show red point at right of main title. -->
+        <attr name="main_title_point" format="boolean"/>
+        <!-- Text to display for sub title. -->
+        <attr name="sub_title_text" format="string" localization="suggested"/>
+        <!-- Text appearance to display for sub title. -->
+        <attr name="sub_title_text_appearance" format="integer"/>
+        <!-- Drawable to be drawn to the left of title. -->
+        <attr name="main_icon_drawable" format="reference"/>
+        <!-- The width of the drawable to be drawn. -->
+        <attr name="main_icon_width" format="dimension"/>
+        <!-- The height of the drawable to be drawn. -->
+        <attr name="main_icon_height" format="dimension"/>
+        <!-- The padding between the drawables and the title text. -->
+        <attr name="main_icon_drawable_padding" format="dimension"/>
+        <!-- Drawable to be drawn as arrow to the right of value. -->
+        <attr name="sub_icon_drawable" format="reference"/>
+        <!-- When true, show arrow drawable. -->
+        <attr name="hasSubIcon" format="boolean"/>
+        <!-- The height of the item to be show. -->
+        <attr name="item_height" format="dimension"/>
+        <!-- The identities of the item to different when click. -->
+        <attr name="item_identities" format="string"/>
+        <!-- when true,show the left icon-->
+        <attr name="has_left_icon" format="boolean"/>
+        <!-- The paddingLeft of the title to be show. -->
+        <attr name="main_title_padding_left" format="dimension"/>
+        <!-- The paddingLeft of the title to be show. -->
+        <attr name="sub_title_padding_right" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,139 @@
+<resources>
+
+    <!-- app base text size -->
+    <!-- 大标题-->
+    <dimen name="headline_text_size">18sp</dimen>
+    <!-- 正文标题-->
+    <dimen name="main_line_text_size">16sp</dimen>
+    <!-- 正文内容-->
+    <dimen name="main_body_text_size">14sp</dimen>
+    <!-- 正文副内容-->
+    <dimen name="main_sub_body_text_size">12sp</dimen>
+    <!-- 标签-->
+    <dimen name="tag_text_size">12sp</dimen>
+    <!--字体等级 -->
+    <!--TitleBar字体 -->
+    <dimen name="title_bar_text_size">17sp</dimen>
+    <!--common btn 字体 -->
+    <dimen name="common_btn_text_size">15sp</dimen>
+
+    <dimen name="common_text_size_three">13sp</dimen>
+    <dimen name="common_text_size_four">11sp</dimen>
+
+
+
+    <!-- 按钮-->
+    <!-- 香肠按钮字体高度-->
+    <dimen name="sausage_btn_height">42dp</dimen>
+    <dimen name="sausage_btn_corner">21dp</dimen>
+
+    <!-- 全局圆角-->
+    <dimen name="app_layout_corner">3dp</dimen>
+
+    <!-- 全局对话框属性-->
+    <dimen name="app_dialog_padding_out">33dp</dimen>
+    <dimen name="app_dialog_text_padding">28dp</dimen>
+    <dimen name="app_dialog_btn_height">47dp</dimen>
+    <dimen name="app_dialog_min_height">80dp</dimen>
+
+
+    <!--////////////////////////////////////////////////////////-->
+    <!-- 1.6临时区域-->
+
+    <!--////////////////////////////////////////////////////////-->
+
+
+
+
+
+    <!--titleBar-->
+    <dimen name="title_bar_height">44dp</dimen>
+    <dimen name="title_bar_margin_left">10dp</dimen>
+    <dimen name="title_bar_margin_right">10dp</dimen>
+    <dimen name="title_bar_btn_width">50dp</dimen>
+
+    <!--Mine页面-->
+    <dimen name="mine_head_btn_width">108dp</dimen>
+    <dimen name="mine_head_btn_height">42dp</dimen>
+    <dimen name="mine_head_btn_margin">28dp</dimen>
+    <dimen name="mine_head_personal_info_btn_width">120dp</dimen>
+    <dimen name="mine_head_personal_info_btn_height">42dp</dimen>
+    <dimen name="mine_head_personal_info_btn_margin">13dp</dimen>
+    <!--common btn -->
+    <dimen name="common_btn_width">165dp</dimen>
+    <dimen name="common_btn_height">42dp</dimen>
+    <dimen name="common_btn_margin_top">68dp</dimen>
+    <!--空白页-->
+    <dimen name="blank_img_margin_top">80dp</dimen>
+    <dimen name="blank_first_text_margin_top">31dp</dimen>
+    <dimen name="blank_second_text_margin_top">15dp</dimen>
+
+
+    <dimen name="bottom_menu_bar_height">48dp</dimen>
+    <dimen name="top_navigation_bar_height">48dp</dimen>
+    <dimen name="option_item_bar_height">46.5dp</dimen>
+
+
+    <dimen name="tool_bar_height">56dp</dimen>
+    <dimen name="metro_menu_item_width">181dp</dimen>
+    <dimen name="metro_menu_item_height">47dp</dimen>
+
+
+    <!--Setting-->
+    <dimen name="setting_logout_bar_height">40dp</dimen>
+    <dimen name="setting_margin_left_right">10dp</dimen>
+    <dimen name="setting_margin_top_bottom">10dp</dimen>
+    <dimen name="setting_logout_bar_margin_bottom">30dp</dimen>
+
+    <!--look house record-->
+    <dimen name="look_house_record_portrait_width">68dp</dimen>
+    <dimen name="look_house_record_caretaker_margin_top">67dp</dimen>
+    <dimen name="look_house_record_no_look_record_margin_top">13dp</dimen>
+    <dimen name="look_house_record_goto_find_house_margin_top">30dp</dimen>
+    <dimen name="look_house_record_agent_detail_height">104dp</dimen>
+
+    <!--login-->
+    <dimen name="login_edit_height">43dp</dimen>
+    <dimen name="login_edit_bottom_line_margin">31dp</dimen>
+    <dimen name="login_logo_margin_top">45dp</dimen>
+    <dimen name="login_voice_tip_margin_bottom">42dp</dimen>
+    <dimen name="register_tip_margin_top">32dp</dimen>
+    <dimen name="login_phone_edit_margin_top">42dp</dimen>
+
+    <!--material_drawer-->
+    <dimen name="material_drawer_width">230dp</dimen>
+    <dimen name="menu_drawer_width">180dp</dimen>
+
+    <!-- Map Control-->
+    <dimen name="map_control_btn_margin">10dp</dimen>
+    <dimen name="map_control_btn_width">56dp</dimen>
+    <dimen name="map_control_btn_height">56dp</dimen>
+    <dimen name="map_control_list_btn_width">56dp</dimen>
+    <dimen name="map_control_list_btn_height">56dp</dimen>
+
+    <!-- Filter page-->
+    <dimen name="filter_room_btn_big_corner">3dp</dimen>
+    <dimen name="filter_room_btn_small_corner">0dp</dimen>
+
+    <!--Common ListView Item-->
+    <dimen name="common_list_item_height">112dp</dimen>
+    <dimen name="common_list_item_portrait_width">105dp</dimen>
+    <dimen name="common_list_item_portrait_height">80dp</dimen>
+
+    <!--comment agent view-->
+    <dimen name="comment_tag_view_height">259dp</dimen>
+    <dimen name="submit_comment_btn_width">114dp</dimen>
+    <dimen name="submit_comment_btn_height">40dp</dimen>
+    <dimen name="add_comment_edit_width">302dp</dimen>
+    <dimen name="add_comment_edit_height">220dp</dimen>
+
+    <!--agent all comment item view-->
+    <dimen name="agent_all_comments_item_height">63dp</dimen>
+
+    <!-- pw_input-->
+    <dimen name="pw_view_height">48dip</dimen>
+    <!-- listview/recycleview  itemview paddingLeft or paddingRight(you also can use magin~)-->
+    <dimen name="item_view_padding_left">10dp</dimen>
+    <dimen name="item_view_padding_right">10dp</dimen>
+    <!-- end-->
+</resources>

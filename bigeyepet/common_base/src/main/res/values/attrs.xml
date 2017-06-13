@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomRefreshListView">
+
+        <!-- Show split line at bottom of the listview. -->
+        <attr name="show_bottom_line" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="WKEditTextDel">
+        <attr name="hintText" format="string" />
+        <attr name="rightLabel" format="string" />
+        <attr name="deleteButtonRes" format="reference" />
+        <attr name="rightLabelStyle" format="reference" />
+        <attr name="show_delete_btn" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LFTextView">
+
+        <!-- The drawable to be drawn. -->
+        <attr name="text_drawable_src" format="reference" />
+        <!-- The direction of the drawable to be drawn. -->
+        <attr name="text_drawable_direction">
+
+            <!-- The drawable to be drawn to the left of the text. -->
+            <enum name="left" value="0" />
+            <!-- The drawable to be drawn above the text. -->
+            <enum name="top" value="1" />
+            <!-- The drawable to be drawn to the right of the text. -->
+            <enum name="right" value="2" />
+            <!-- The drawable to be drawn below the text. -->
+            <enum name="bottom" value="3" />
+        </attr>
+        <!-- The width of the drawable to be drawn. -->
+        <attr name="text_drawable_width" format="dimension" />
+        <!-- The height of the drawable to be drawn. -->
+        <attr name="text_drawable_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToZoomView">
+        <attr name="headerView" format="reference" />
+        <attr name="contentView" format="reference" />
+        <attr name="zoomView" format="reference" />
+        <attr name="isHeaderParallax" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PanningView">
+        <attr name="panningDurationInMs" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RangeBar">
+        <attr name="tickStart" format="float" />
+        <attr name="tickEnd" format="float" />
+        <attr name="tickInterval" format="float" />
+        <attr name="tickHeight" format="dimension" />
+        <attr name="tickColor" format="color" />
+        <attr name="barWeight" format="dimension" />
+        <attr name="barColor" format="reference|color" />
+        <attr name="textColor" format="reference|color" />
+        <attr name="pinColor" format="reference|color" />
+        <attr name="selectorSize" format="dimension" />
+        <attr name="pinPadding" format="dimension" />
+        <attr name="barPaddingBottom" format="dimension" />
+        <attr name="selectorColor" format="reference|color" />
+        <attr name="rangeBar" format="boolean" />
+        <attr name="connectingLineWeight" format="dimension" />
+        <attr name="connectingLineColor" format="reference|color" />
+        <attr name="pinRadius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension" />
+        <attr name="start_altitude" format="dimension" />
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference" />
+        <attr name="shadow_right" format="reference" />
+        <attr name="shadow_bottom" format="reference" />
+    </declare-styleable>
+
+    <attr name="SwipeBackLayoutStyle" format="reference" />
+
+    <declare-styleable name="gridPasswordView">
+
+        <attr name="pd_textColor" format="reference|color" />
+        <attr name="textSize" format="dimension" />
+
+        <attr name="lineColor" format="color" />
+        <attr name="lineMiddleColor" format="color" />
+        <attr name="gridColor" format="color" />
+        <attr name="lineWidth" format="dimension" />
+
+        <attr name="passwordLength" format="integer" />
+        <attr name="passwordTransformation" format="string" />
+
+        <attr name="passwordType" format="enum">
+            <enum name="numberPassword" value="0" />
+            <enum name="textPassword" value="1" />
+            <enum name="textVisiblePassword" value="2" />
+            <enum name="textWebPassword" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="LFLinearListView">
+        <attr name="android:entries" />
+
+        <attr name="dividerThickness" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="1.0"
+    android:background="@null"
+    style="@style/text_15_4e4e4e"
+    android:gravity="center_vertical|left"
+    android:orientation="vertical">
+
+</EditText>

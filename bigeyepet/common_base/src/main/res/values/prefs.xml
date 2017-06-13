@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_file_name">lf_user_app_share_preference</string>
+    <string name="preference_version_code">preference_version_code</string>
+
+    <string name="user_guide_page_has_show">user_guide_page_has_show</string>
+    <string name="app_boot_img_url">app_boot_img_url</string>
+    <string name="plot_list_user_guide_page_has_show">plot_list_user_guide_page_has_show</string>
+
+    <string name="is_app_active">is_app_active</string>
+
+    <string name="server_diff_time">server_diff_time</string>
+
+
+    <string name="is_use_manual_ip">is_use_manual_ip</string>
+    <string name="use_manual_ip_setting">use_manual_ip_setting</string>
+    <string name="manual_ip_for_debug">manual_ip_for_debug</string>
+    <string name="manual_port_for_debug">manual_port_for_debug</string>
+    <string name="app_mode">app_mode</string>
+
+    <!-- user info-->
+    <string name="user_integral">user_integral</string>
+    <string name="user_id">user_id</string>
+    <string name="user_phone">user_phone</string>
+    <string name="user_name">user_name</string>
+    <string name="user_sex">user_sex</string>
+    <string name="user_photo_url">user_photo_url</string>
+    <string name="login_key">login_key</string>
+    <string name="push_name">push_name</string>
+
+    <string name="switch_land_lord">switch_land_lord</string>
+
+    <!-- filter info-->
+    <string name="filter_high_price">filter_high_price</string>
+    <string name="filter_low_price">filter_low_price</string>
+    <string name="filter_high_area">filter_high_area</string>
+    <string name="filter_low_area">filter_low_area</string>
+    <string name="filter_rooms">filter_rooms</string>
+
+    <!-- city info-->
+    <string name="last_city_name">last_city_name</string>
+    <string name="last_city_id">last_city_id</string>
+    <string name="last_city_lat">last_city_lat</string>
+    <string name="last_city_lon">last_city_lon</string>
+    <string name="last_biz_id">last_biz_id</string>
+
+    <string name="feedback_info">feedback_info</string>
+
+    <!-- last get security code time-->
+    <string name="last_forget_pws_security_code_time">last_forget_pws_security_code_time</string>
+
+    <!-- im-->
+    <string name="is_on_conversation">is_on_conversation</string>
+
+    <!-- setting-->
+    <string name="push_permission">push_permission</string>
+    <string name="sound_permission">sound_permission</string>
+    <string name="vibration_permission">vibration_permission</string>
+
+    <string name="unread_message">unread_message</string>
+
+    <string name="last_push_alias">last_push_alias</string>
+    <string name="last_remind_update_version">last_remind_update_version</string>
+    <string name="android_gc_status">android_gc_status</string>
+    <string name="android_custom_identity">android_custom_identity</string>
+
+</resources>

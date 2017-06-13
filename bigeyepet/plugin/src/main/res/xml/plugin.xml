@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plugs>
+    <Plug
+        name="user"
+        class="" />
+    <Plug
+        name="landlord"
+        class="" />
+    <Plug
+        name="h5"
+        class="" />
+    <Plug
+        name="map"
+        class="" />
+    <Plug
+        name="pay"
+        class="" />
+    <Plug
+        name="rent"
+        class="" />
+</Plugs>

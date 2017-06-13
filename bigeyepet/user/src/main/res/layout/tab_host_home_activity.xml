@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_menu_bar_height"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/tab_user"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffff"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_centerHorizontal="true"
+
+                android:background="@drawable/home_tab_user_btn_bg"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/text_12_main_menu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/menu_tab_user" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_record"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/home_tab_record_btn_bg"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/text_12_main_menu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/menu_tab_record" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_discovery"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/tab_find_icon"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/home_tab_find_btn_bg"
+                android:contentDescription="@string/app_name" />
+
+            <View
+                android:id="@+id/find_red_dot"
+                android:layout_width="8dip"
+                android:layout_height="8dip"
+                android:layout_toRightOf="@id/tab_find_icon"
+                android:background="@drawable/bg_blue_dot"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tab_find_txt"
+            style="@style/text_12_main_menu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/menu_tab_h5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_mine"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#ffff"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icon_tab_mine"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/home_tab_mine_btn_bg"
+                android:contentDescription="@string/app_name" />
+
+            <View
+                android:id="@+id/my_red_dot"
+                android:layout_width="8dip"
+                android:layout_height="8dip"
+                android:layout_toRightOf="@id/icon_tab_mine"
+                android:background="@drawable/bg_blue_dot"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <TextView
+            style="@style/text_12_main_menu_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/menu_tab_mine" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,445 @@
+<resources>
+
+    <string name="main_page_name">上海 二手房</string>
+
+    <!-- Menu-->
+    <string name="menu_search_title">搜索</string>
+    <string name="menu_filter_title">筛选</string>
+    <string name="menu_share_title">分享</string>
+    <string name="menu_collect_title">收藏</string>
+
+    <!--home tab-->
+    <string name="menu_tab_user">首页</string>
+    <string name="menu_tab_record">记录</string>
+    <string name="menu_tab_h5">发现</string>
+    <string name="menu_tab_landlord">卖房</string>
+    <string name="menu_tab_mine">我的</string>
+
+    <string name="submit">提交</string>
+    <string name="confirm">确定</string>
+    <string name="back">返回</string>
+    <string name="update">更新</string>
+    <string name="exit">退出</string>
+    <string name="address">地址:</string>
+
+    <!-- User guide-->
+    <string name="user_guide_1_title">真实房源</string>
+    <string name="user_guide_1_tips">24小时内最新房源，绝对真实</string>
+    <string name="user_guide_2_title">专属皇冠经纪人</string>
+    <string name="user_guide_2_tips">一对一服务，看房无忧</string>
+    <string name="user_guide_3_title">金融服务更贴心</string>
+    <string name="user_guide_3_tips">悟空贷 二手房首付低至两成\n详情可咨询专属经纪人</string>
+    <string name="user_guide_4_title">交易安全有保障</string>
+    <string name="user_guide_4_tips">免费律师楼签约服务，交易省心更放心</string>
+    <string name="enter_now">立即体验</string>
+
+    <!-- Map-->
+    <string name="radius_in_meters">周边%s米</string>
+    <string name="click_to_see"><u>点击即可去看看></u></string>
+
+    <!--Setting-->
+    <string name="about_li_fang">关于我们</string>
+    <string name="setting_make_sure_exit_login">您确定要退出登录么</string>
+    <string name="version_update">版本更新</string>
+    <string name="version_update_tips_pre">更新内容：</string>
+    <string name="version_update_tips">发现新版本，是否更新？</string>
+    <string name="version_update_tips_force">发现新版本，请更新!</string>
+    <string name="network_is_not_ok">无法连接到服务器,请检查网络配置或稍后再试</string>
+    <string name="check_network">检查网络</string>
+    <string name="push_switch">消息推送开关</string>
+    <string name="notify_sound">声音提示</string>
+    <string name="vibration_hint">震动提示</string>
+
+    <!--Collect-->
+    <string name="collect_no_collect_data">您还未收藏任何房源</string>
+    <string name="collect_success">收藏成功</string>
+    <string name="collect_cancel">已取消收藏</string>
+    <string name="collect_make_sure_delete_the_collect">您确定要取消此条收藏么</string>
+    <string name="collect_delete_succeed">取消收藏成功</string>
+    <string name="collect_delete_failed">取消收藏失败</string>
+    <string name="no_collect_house_record">暂无收藏记录</string>
+
+    <!--login-->
+    <string name="login">登录</string>
+    <string name="need_login">您还未登录，请先登录</string>
+    <string name="login_new_user">未注册过的手机将自动创建悟空账号</string>
+    <string name="login_get_security_code">获取验证码</string>
+    <string name="login_get_security_code_again">重新获取</string>
+    <string name="login_agreed_and_sign_in">登录</string>
+    <string name="login_input_mobile_number">输入手机号</string>
+    <string name="login_input_security_code">输入手机验证码</string>
+    <string name="login_input_correct_mobile_number">请输入正确手机号</string>
+    <string name="login_mobile_number_cannot_null">手机号码不能为空</string>
+    <string name="login_security_code_cannot_null">验证码不能为空</string>
+    <string name="login_security_code_error_format">验证码格式不正确</string>
+    <string name="login_second">秒后重发</string>
+    <string name="login_security_code_send_success">验证码发送成功</string>
+    <string name="login_security_code_send_failed">验证码发送失败</string>
+    <string name="login_service_agreement_header">点击“登录”即表示您同意我们的</string>
+    <string name="login_service_agreement">《服务协议》</string>
+    <string name="login_already_in_blacklist">您的手机号码已被加入黑名单</string>
+    <string name="login_phone_num_or_security_code_wrong">手机号或验证码错误</string>
+    <string name="login_phone_num_error_format">手机号码不规范</string>
+    <string name="login_succeed">登录成功</string>
+    <string name="login_failed">登录失败</string>
+    <string name="login_security_code_time_out">验证码超时</string>
+    <string name="login_wrong_security_code">验证码错误</string>
+    <string name="login_voice_tip">收不到短信?点此使用</string>
+    <string name="login_voice_tip_btn_text">语音验证</string>
+    <string name="login_agreement_tip">登录代表同意</string>
+    <string name="login_agreement_btn_text">《悟空协议》</string>
+
+    <!--House Share-->
+    <string name="weixin_friends">微信好友</string>
+    <string name="wechat_circle_of_friend">微信朋友圈</string>
+    <string name="copyadd">复制链接</string>
+    <string name="house_share">房源分享</string>
+    <string name="share_success">分享成功</string>
+    <string name="share_fail">分享失败</string>
+    <string name="no_authority">没有授权</string>
+
+    <!--Agent Detail-->
+    <string name="no_exclusive_agent">暂无专属经纪人</string>
+    <string name="exclusive_agent">专属经纪人：%s</string>
+    <string name="appraise_agent">评价经纪人</string>
+    <string name="already_comment">已评价</string>
+    <string name="look_exclusive_agent">查看我的专属经纪人</string>
+    <string name="high_percentage">好评率：</string>
+    <string name="imperial_crown_agent">皇冠经纪人</string>
+
+    <!--look house record-->
+    <string name="no_look_house_record">暂无看房记录</string>
+    <string name="now_goto_find_house">马上去找房</string>
+    <string name="look_house_record_submit">预约成功</string>
+    <string name="look_house_record_success">预约成功，您的专属经纪人马上联系您</string>
+    <string name="contact_soon">您的专属经纪人马上联系您</string>
+    <string name="is_added_look_record">已加入看房记录</string>
+    <string name="add_look_record">预约看房</string>
+    <string name="add_agent">正在预约</string>
+    <string name="second_counts">60s</string>
+    <string name="house_is_add">房源已约看</string>
+    <string name="house_is_looked">已看房</string>
+    <string name="all_the_data_loading">所有数据已经全部加载</string>
+    <string name="all_the_data_loading_fail">抱歉，服务执行失败</string>
+    <string name="know">知道了</string>
+    <string name="data_is_load_more">数据正在加载中...</string>
+    <string name="agent_comment_failed">经纪人评价失败</string>
+    <string name="contact_agent">联系经纪人</string>
+    <string name="make_sure_delete_the_record_collect">确定删除该条看房记录？</string>
+    <string name="make_sure_cancel_add_agent">确定取消添加经纪人？</string>
+    <string name="delete_house_item_failed">删除预约信息失败</string>
+    <string name="look_record_need_login">看房记录需要您登录之后才能使用</string>
+    <string name="change_agent">更换经纪人</string>
+    <string name="binding_agent">指定经纪人</string>
+    <string name="i_want_bid">我要出价</string>
+    <string name="bid">出价</string>
+    <string name="intention_money">意向金%s元</string>
+    <string name="undo">撤销</string>
+    <string name="change_price">我要调价</string>
+    <string name="intention_money_pay_now">意向金支付中</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bid_list">出价列表</string>
+    <string name="house_list">打开列表</string>
+    <string name="historturnovercount">%s套 </string>
+    <string name="samesalehousing">%s套 </string>
+    <string name="smalldetails">小区详情</string>
+    <string name="smalladdress">地址:</string>
+    <string name="subway">地铁:</string>
+
+    <!--Common item view-->
+    <string name="rmb">￥ </string>
+    <string name="wan"> 万</string>
+    <string name="month">/月</string>
+    <string name="no">暂无</string>
+    <string name="two_year">满二</string>
+    <string name="five_year_only_one">满五唯一</string>
+    <string name="self_support">自营</string>
+    <string name="subway_house">地铁</string>
+    <string name="taxes_each_pay">（税费各付）</string>
+    <string name="hand_price">（到手价）</string>
+    <string name="school_house">近学校</string>
+    <string name="transaction_item_up">交易详情展开</string>
+    <string name="transaction_item_down">交易详情收起</string>
+
+    <string name="house_order_already_look">已看房</string>
+    <string name="house_order_already_sold">已售出</string>
+    <string name="house_order_already_bid">已出价</string>
+    <string name="house_order_already_change_price">已调价</string>
+    <string name="house_order_already_undo">已撤销</string>
+
+    <!--comment agent popup window-->
+    <string name="up_comment">您觉得好的地方？</string>
+    <string name="low_comment">您觉得不好的地方？</string>
+    <string name="add_comment">还有什么要补充的？</string>
+    <string name="can_input_hundred_num">您还可以输入100个字</string>
+    <string name="net_loading_failed">网络连接出现异常，请稍候再试</string>
+
+
+    <string name="customer_lookhouserecords">客户看房记录</string>
+    <!--user center title-->
+    <string name="title_login">登录</string>
+    <string name="title_setting">设置</string>
+    <string name="title_look_house_record">看房记录</string>
+    <string name="title_collect_record">收藏记录</string>
+    <string name="title_about_us">关于我们</string>
+    <string name="title_feedback">意见反馈</string>
+    <string name="title_exit_login">退出</string>
+    <string name="logout">退出登录</string>
+
+    <string name="title_comment">评价</string>
+    <string name="title_discovery">发现</string>
+    <string name="title_my_qr_code">我的二维码</string>
+
+    <string name="title_user_comment">用户评价</string>
+    <string name="title_service_agreement">服务协议</string>
+    <string name="title_system_info">系统信息</string>
+
+
+    <!--bottom_list_prompt_text-->
+    <string name="bottom_list_prompt_text">所有数据已经全部加载</string>
+
+    <!--agent all comment-->
+    <string name="agent_not_receive_comment">您的专属经纪人还没有收到评价</string>
+
+    <!--update user info-->
+    <string name="make_sure_look_the_house">确认约看此房源？</string>
+    <string name="please_update_user_info">请完善您的个人信息</string>
+    <string name="please_input_name">请输入您的姓名</string>
+    <string name="male">先生</string>
+    <string name="female">女士</string>
+
+    <!--feedback-->
+    <string name="please_input_feed_back">输入您的宝贵意见与建议</string>
+    <string name="thank_for_feed_back">感谢您的反馈</string>
+
+    <!--detail view-->
+    <string name="community_house">小区在售房源</string>
+    <string name="counterpart_school">附近学校&#160;&#160;</string>
+    <string name="community">小区详情</string>
+    <string name="advance_payment">首付&#160;&#160;</string>
+    <string name="unit_price">单价&#160;&#160;</string>
+    <string name="mortgage">房屋月供&#160;&#160;</string>
+    <string name="house_room">户型&#160;&#160;</string>
+    <string name="house_area">建筑面积&#160;&#160;</string>
+    <string name="house_type">类型&#160;&#160;</string>
+    <string name="house_floor">所在楼层&#160;&#160;</string>
+    <string name="renovation">装修&#160;&#160;</string>
+    <string name="orientation">房屋朝向&#160;&#160;</string>
+    <string name="districttown">所属板块&#160;&#160;</string>
+    <string name="volumerate">容积率&#160;&#160;</string>
+    <string name="totalhouse">房屋总数&#160;&#160;</string>
+    <string name="greenrate">绿化率&#160;&#160;</string>
+    <string name="property_right">产权年限&#160;&#160;</string>
+    <string name="completed_time">竣工年代&#160;&#160;</string>
+    <string name="property_charges">物业费&#160;&#160;</string>
+    <string name="property_company">物业公司&#160;&#160;</string>
+    <string name="property_type">物业类型&#160;&#160;</string>
+    <string name="developers">开发商&#160;&#160;</string>
+    <string name="complete_time_lable">年竣工&#160;&#160;</string>
+    <!--new detail view-->
+    <string name="building_detail">楼盘信息</string>
+    <string name="building_address">楼盘地址</string>
+    <string name="building_area">所属区域</string>
+    <string name="building_developer">开发商&#160;&#160;&#160;&#160;</string>
+    <string name="building_house_address">售楼处地址</string>
+    <string name="building_type">建筑类型</string>
+    <string name="building_property_age">产权年限</string>
+    <string name="building_decorate">装修标准</string>
+    <string name="building_total_number">规划户数</string>
+    <string name="building_parking">规划车位</string>
+    <string name="building_plot_ratio">容积率</string>
+    <string name="building_landscaping_ratio">绿化率</string>
+    <string name="building_house_type">物业类型</string>
+    <string name="building_house_company">物业公司</string>
+    <string name="building_manage_fee">物业费</string>
+    <string name="building_huxing_area">户型面积</string>
+    <string name="mortgage_calculator_text">房贷计算器</string>
+    <string name="report_false_house_title">举报虚假房源</string>
+    <string name="more_agent_comment_title">经纪人专业评房</string>
+    <string name="house_label_open">即将开盘</string>
+    <string name="house_label_sale">在售楼盘</string>
+    <string name="house_label_coupon">有优惠</string>
+    <string name="house_label_subway">地铁房</string>
+    <string name="house_label_video">有视频</string>
+    <!--new detail house type view-->
+    <string name="detail_house_type">房屋户型&#160;&#160;</string>
+    <string name="detail_house_direction">房屋朝向&#160;&#160;</string>
+    <string name="detail_house_area">建筑面积&#160;&#160;</string>
+    <string name="detail_house_decorate">装修情况&#160;&#160;</string>
+    <string name="detail_mortgage_calculator">房贷计算</string>
+
+    <!--mine fragment-->
+    <string name="welcome_you">欢迎您，</string>
+    <string name="welcome">欢迎</string>
+    <string name="login_now">立即登录</string>
+    <string name="mine_wallet">我的钱包</string>
+    <string name="exit_login_succeed">退出登录成功</string>
+    <string name="login_prompt">您还未登录，请先登录再操作！</string>
+    <string name="i_am_buyers">我是买家</string>
+    <string name="i_want_sell_house">我要卖房</string>
+    <string name="mine_transaction">我的交易</string>
+    <string name="mine_collect">我的收藏</string>
+    <string name="mine_personal_info">点击完善个人信息</string>
+
+
+    <!--house bid-->
+    <string name="bid_type">类型</string>
+    <string name="bid_intent_gold">意向金</string>
+    <string name="bid_price">房价</string>
+    <string name="bid_more">更多</string>
+    <string name="house_bid_list">出价列表</string>
+    <string name="house_price_history">房东调价记录</string>
+    <string name="what_bid_intent_gold"><u>什么叫意向金?</u></string>
+    <string name="is_loan">是</string>
+    <string name="yuan_money">元</string>
+    <string name="no_loan">否</string>
+    <string name="current_price">现价</string>
+    <string name="mine_coupons">我的优惠券</string>
+    <string name="mine_account_safe">账户安全</string>
+    <string name="next">下一步</string>
+    <string name="skip">跳过</string>
+    <string name="switch_to_landlord">切换成房东模式</string>
+    <string name="between_to">～%s之间</string>
+    <string name="start_price">最低%s起</string>
+    <string name="remind_mesage">请输入有效的%s</string>
+    <string name="bid_small">房价的最小单位为万元</string>
+    <string name="intent_gold_small">意向金的最小单位为元</string>
+    <string name="remind_same_mesage">当前价格无变动</string>
+    <string name="make_sure">确定</string>
+    <string name="wait">再等等</string>
+    <string name="undo_message">确定要撤销你的出价吗？</string>
+    <string name="finish">完成</string>
+    <string name="intent_gold_pay">意向金支付</string>
+    <string name="three_days">出价后3天内不可撤销</string>
+    <string name="intent_gold_pay_now">意向金支付中</string>
+    <string name="what_intent_gold">什么叫意向金</string>
+
+
+    <!--set agent fragment-->
+    <string name="now_agent_name">当前专属经纪人：%s</string>
+    <string name="now_agent_phone_num">电话：%s</string>
+    <string name="input_changed_agent_phone_num_hint">请输入指定经纪人的手机号</string>
+    <string name="input_agent_phone_num_hint">请输入经纪人的手机号</string>
+
+    <!--coupon fragment-->
+    <string name="mine_coupon">我的优惠券</string>
+    <string name="mine_coupon_title">我的抵用券</string>
+    <string name="mine_coupon_tip">悟空佣金抵用券</string>
+    <string name="use_rule">使用规则</string>
+    <string name="commission_vouchers">元佣金抵用券</string>
+    <string name="dead_line">有效期至%s</string>
+    <string name="use_valid">使用有效期</string>
+    <string name="coupon_id">编号%s</string>
+    <string name="use_method">使用方法</string>
+    <string name="coupon_instruction">在佣金支付前向悟空找房工作人员出示红包明细，即可在佣金支付时
+        将有效悟空红包折算成现金直接进行抵扣佣金。有效期内的红包可叠加使用</string>
+    <string name="detail">详情</string>
+    <string name="no_coupon_one">暂时没有可用的抵用券</string>
+    <string name="no_coupon_two">快去发现看看</string>
+    <string name="no_coupon_btn_text">去发现</string>
+
+    <!--account detail fragment-->
+    <string name="account_detail">账户明细</string>
+    <string name="money_record">交易记录</string>
+    <string name="account_detail_no_data">您暂时还没有提现账单记录哦！</string>
+    <string name="waiting_for_payment">等待付款</string>
+    <string name="payments_success">付款成功</string>
+    <string name="payment_failed">付款失败</string>
+    <string name="cancel_payment">取消付款</string>
+    <string name="no_account_detail">您暂时还没有提现账单记录哦~</string>
+    <!--account info-->
+    <string name="account_info_title">账户信息</string>
+    <string name="account_info_head_photo">头像</string>
+    <string name="account_info_name">姓名</string>
+    <string name="account_info_sex">性别</string>
+    <string name="account_info_phone">手机号码</string>
+
+    <!--with draw fragment-->
+    <string name="with_draw">提现</string>
+    <string name="with_draw_sum">提现金额</string>
+    <string name="least_width_draw_hint">100元起提</string>
+    <string name="with_draw_balance">现金余额：</string>
+    <string name="balance">%s元</string>
+    <string name="with_draw_to_third_platform">提现到第三方平台</string>
+    <string name="ali_pay_wallet">支付宝钱包</string>
+    <string name="with_draw_now">立即提现</string>
+    <string name="with_draw_least_amount">您输入的金额小于100元</string>
+    <string name="with_draw_sum_shortage">余额不足</string>
+    <string name="with_draw_select_bank">请选择银行</string>
+    <string name="bank_card_id">收款人银行卡号</string>
+    <string name="bank_card_user_name">收款人姓名</string>
+    <string name="take_cash_succeed">提现成功!</string>
+    <string name="can_not_take_cash">余额不足，无法提现！</string>
+
+    <string name="market_cashtip_has_show">market_cashtip_has_show</string>
+    <string name="market_cashtip_userphone">market_cashtip_userphone</string>
+
+    <!--transaction fragment-->
+    <string name="transaction_no_data_one">您还没有相关交易记录</string>
+    <string name="transaction_no_data_two">快去找房看看</string>
+    <string name="transaction_no_data_btn_text">看房去</string>
+
+
+    <!--mode switch-->
+    <string name="new_house">新房</string>
+    <string name="second_house">二手房</string>
+
+    <!--new list house fragment-->
+    <string name="new_list_no_match_house">没有符合条件的房源</string>
+    <string name="new_list_change_match_condition">您可扩大搜索范围，找到更多的房源</string>
+    <string name="new_list_pending">待定</string>
+
+    <!--new record list fragment-->
+    <string name="wan_start">万起</string>
+
+    <!-- account safe-->
+    <string name="set_pay_pd">设置支付密码</string>
+    <string name="reset_pay_pd">重置支付密码</string>
+    <string name="forget_pay_pd">忘记支付密码</string>
+    <string name="safe_check">安全校验</string>
+    <string name="set_pay_pd_6">请设置6位数字支付密码</string>
+    <string name="sure_pay_pd_6">请确认6位数字支付密码</string>
+    <string name="input_origin_pay_pw">请输入支付密码，以验证身份</string>
+    <string name="set_pw">设置密码</string>
+    <string name="input_pay_pw">请输入支付密码</string>
+    <string name="forget_pw">忘记密码</string>
+    <string name="nohas_pw_tips">你尚未设置支付密码，请先设置支付密码后提现</string>
+    <string name="pw_not_in_use_tips">抱歉，您的支付密码已停用，请找回支付密码后再体现</string>
+
+    <!--  app user part-->
+    <string name="message">消息</string>
+    <!-- end-->
+    <!-- im start-->
+    <string name="advisory_online">在线咨询</string>
+    <string name="chat_group_setting">群聊设置</string>
+    <string name="set_head_avatar">设置头像</string>
+    <string name="all_member">所有成员</string>
+    <string name="new_msg_not_disturb">新消息免打扰</string>
+    <string name="accept">接受</string>
+    <string name="invite_friend">邀请好友</string>
+    <string name="exit_char_group">退出群聊</string>
+    <string name="system_msg">系统消息</string>
+    <string name="look_detail">查看详情</string>
+    <string name="chat_group_invitation_list_title">微聊房友群邀请</string>
+    <string name="record_video">录制视频</string>
+    <!--im end-->
+
+    <!--msg lists start-->
+    <string name="system_last_read_time">ststem_last_read_time</string>
+    <string name="wuk_selected_msg">wuk_selected_msg</string>
+    <string name="chat_group_invitation">chat_group_invitation</string>
+    <string name="identifyCodeType">identifyCodeType</string>
+    <string name="headPhotoImg">headPhotoImg</string>
+    <!--msg list end-->
+    <string name="input_invitation_phone_num">输入被邀请人手机号</string>
+    <string name="input_invitation_declaration">输入邀请宣言</string>
+    <string name="input_invitation_name">输入邀请人姓名</string>
+
+
+    <!--appoint agent-->
+    <string name="appoint_no_agent_notice">指定成功后，该经纪人将成为您的城市专属经纪人，当前城市的所有房源都将派单给该经纪人，一个城市只能指定一个城市经纪人</string>
+    <string name="appoint_have_agent_notice">该经纪人是您的城市专属经纪人，当前城市的所有房源都将派单给该经纪人</string>
+    <string name="location_around_map">位置及周边</string>
+</resources>

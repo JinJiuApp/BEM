@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- 按下 -->
+    <item android:state_pressed="true" android:color="@color/pet_app_color"/><!-- color="#00ffffff" -->
+
+    <!-- 选中 -->
+    <item android:state_checked="true" android:color="@color/pet_app_color"/>
+
+    <!-- 其他 -->
+    <item android:color="@color/white"/>
+</selector>

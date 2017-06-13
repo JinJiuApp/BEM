@@ -1,0 +1,31 @@
+<resources>
+    <style name="dialog_fade_style" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_fade_out</item>
+    </style>
+    <style name="cell_divider_hor">
+        <item name="android:background">@color/app_color_gray_light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+    </style>
+    <style name="cell_divider_ver">
+        <item name="android:background">@color/app_color_gray_light</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- Widget Style-->
+    <style name="InputCursorColor" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textCursorDrawable">@drawable/input_cursor_drawable</item>
+    </style>
+    <style name="LFEditText" parent="@style/Widget.AppCompat.EditText">
+        <item name="android:textCursorDrawable">@drawable/input_cursor_drawable</item>
+    </style>
+    <style name="login_edit_text_common_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/login_edit_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/common_btn_text_size</item>
+    </style>
+</resources>

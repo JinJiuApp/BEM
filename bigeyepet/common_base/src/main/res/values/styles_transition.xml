@@ -1,0 +1,28 @@
+<resources>
+
+    <style name="splash_activity_fade_style" parent="@android:style/Animation.Activity">
+    </style>
+
+    <style name="main_activity_translate_style" parent="@android:style/Animation.Activity">
+        <item name="android:activityCloseEnterAnimation">@anim/activity_translate_close_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_translate_close_out</item>
+    </style>
+
+    <style name="map_house_detail_activity_style" parent="@android:style/Animation.Translucent">
+    </style>
+
+    <style name="activity_fade_style" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_fade_out</item>
+    </style>
+
+    <style name="activity_translate_style" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_translate_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_translate_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_translate_close_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_translate_close_out</item>
+    </style>
+
+</resources>

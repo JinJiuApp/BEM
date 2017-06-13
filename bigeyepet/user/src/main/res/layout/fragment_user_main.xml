@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/pet_app_color" >
+        <RadioGroup
+            android:id="@+id/rg_title_cut"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rg_recommend"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rb_bg_01"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingBottom="6dip"
+                android:paddingTop="6dip"
+                android:text="推荐"
+                android:textColor="@color/title_text_sel"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rg_news"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rb_bg_03"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="6dip"
+                android:paddingTop="6dip"
+                android:text="最新"
+                android:textColor="@color/title_text_sel"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rg_attention"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/rb_bg_02"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="6dip"
+                android:paddingTop="6dip"
+                android:text="关注"
+                android:textColor="@color/title_text_sel"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/camera"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <com.jaryjun.common_base.widget.pullrefresh.PullToRefreshListView
+        android:id="@+id/prlv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@null"
+        android:divider="@color/transparent"
+        android:dividerHeight="10dip"
+        android:fadingEdge="none"
+        android:fadingEdgeLength="0dip"
+        android:layout_marginTop="10dp"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none" />
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 宠物app color -->
+    <color name="pet_app_color">#FCA33C</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 基本颜色区域 -->
+
+    <!-- 通用灰色背景-->
+    <color name="app_color_gray">#f5f5f5</color>
+    <!-- 分割线-->
+    <color name="app_color_gray_light">#e4e4e4</color>
+    <!-- 灰蓝按钮-->
+    <color name="app_color_gray_blue">#3b4555</color>
+    <!-- 标题栏-->
+    <color name="app_color_blue">#3a75c2</color>
+    <!-- 蓝按钮-->
+    <color name="app_color_blue_light">#4081d6</color>
+    <!-- 蓝按钮-->
+    <color name="app_color_blue_light_second">#406ad6</color>
+    <!-- 黑色标题-->
+    <color name="app_color_black">#4e4e4e</color>
+    <!-- 字体颜色-->
+    <color name="app_text_color_nine">#999999</color>
+    <!-- 字体颜色-->
+    <color name="app_text_color_ccc">#cccccc</color>
+
+    <!--///////////透明部分///////////////-->
+    <color name="color_app_black_a60">#99e4e4e4</color>
+
+    <!--///////////临时颜色///////////////-->
+    <color name="color_3567ac">#3567ac</color>
+
+    <!-- 蓝色状态栏-->
+    <color name="app_status_bar_color">@color/app_color_blue</color>
+    <!-- 白色状态栏-->
+    <color name="app_status_bar_color_sub">@color/app_color_gray</color>
+    <!-- 高亮-->
+    <color name="app_highlight_color">@color/app_color_blue_light</color>
+
+    <!-- Base color-->
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="red">#c93437</color>
+    <color name="blue">#375bf1</color>
+    <color name="yellow">#f7d23e</color>
+    <color name="green">#34a350</color>
+
+
+    <!-- Material DEFAULT colors -->
+    <color name="primary">@color/app_color_blue</color>
+    <color name="primary_dark">@color/app_status_bar_color</color>
+    <color name="primary_second_dark">@color/app_status_bar_color_sub</color>
+    <color name="primary_accent">@color/app_highlight_color</color>
+    <color name="edit_cursor_color">@color/app_highlight_color</color>
+
+    <!-- special color-->
+    <color name="white_a90">#e6ffffff</color>
+    <color name="white_a95">#f2ffffff</color>
+    <color name="white_a70">#b3ffffff</color>
+    <color name="white_a80">#ccffffff</color>
+    <color name="white_a20">#33ffffff</color>
+    <color name="white_a10">#1affffff</color>
+    <color name="black_a10">#1a000000</color>
+    <color name="black_a20">#33000000</color>
+    <color name="black_a40">#66000000</color>
+    <color name="black_a60">#99000000</color>
+    <color name="black_a80">#cc000000</color>
+
+    <!--地图标记颜色-->
+    <color name="marker_bg_new">#cc4081d6</color>
+    <color name="marker_bg_new_filter">#ccedba11</color>
+    <color name="marker_bg_new_locked">#cc8cadd9</color>
+    <color name="marker_bg_new_filter_locked">#ffebd68e</color>
+
+    <color name="marker_bg_own">#cc4081d6</color>
+    <color name="marker_bg_own_filter">#ccedba11</color>
+    <color name="marker_bg_own_locked">#cc8cadd9</color>
+    <color name="marker_bg_own_filter_locked">#ffebd68e</color>
+
+    <!-- 颜色标签 满五唯一-->
+    <color name="color_label_1">@color/app_color_blue_light</color>
+    <!-- 颜色标签 地铁房-->
+    <color name="color_label_2">#eeba11</color>
+    <!-- 颜色标签 满二、调价按钮-->
+    <color name="color_label_4">#5fb71f</color>
+    <!-- 颜色标签 调价按钮-->
+    <color name="color_label_5">#ff4e4e</color>
+    <!-- 颜色标签 学区房按钮-->
+    <color name="color_label_6">#f67c19</color>
+
+    <!-- 颜色标签 独家房源-->
+    <color name="color_label_sole">#eeb700</color>
+    <!-- 店长推荐标签颜色-->
+    <color name="color_label_store_push">#f79619</color>
+
+    <color name="color_new_house_price">#ffa200</color>
+
+    <color name="color_divider">#d8d8d8</color>
+
+    <!-- Drawable-->
+    <drawable name="drawable_white">@android:color/white</drawable>
+
+
+</resources>
